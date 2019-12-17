@@ -1,0 +1,24 @@
+// Place all the styles related to the Index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.main-body {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    margin: auto;
+
+    .main-header { text-align: center; }
+
+    .content {
+        .header-content {
+            display: flex;
+
+            .header-link {
+                margin-right: auto;
+            }
+        }
+    }
+
+    .main-content { margin-top: 32px; }
+}
