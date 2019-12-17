@@ -9,7 +9,22 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class='main-body'>
+    <h1 class='main-header'>Linnee & Tony</h1>
+    <div class='content'>
+      <div class='header-content'>
+        <div class='header-link'>Welcome</div>
+        <div class='header-link'>RSVP</div>
+        <div class='header-link'>Schedule</div>
+        <div class='header-link'>FAQ</div>
+        <div class='header-link'>Travel</div>
+        <div class='header-link'>Guests</div>
+        <div class='header-link'>Registry</div>
+        <div class='header-link'>Moments</div>
+      </div>
+      <div class='main-content'>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
